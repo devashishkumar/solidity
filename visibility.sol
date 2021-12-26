@@ -28,5 +28,5 @@ contract Other {
     A aObj = new A();
     uint public ca = aObj.f1();
     uint public cb = aObj.f4();
-    // f3(), f4() will not accessible
+    // f2(), f3() will not accessible
 }
